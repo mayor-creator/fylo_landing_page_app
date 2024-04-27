@@ -195,9 +195,25 @@ body {
 }
 .main__hero_input {
   display: block;
-  width: 100%;
+  border: 1px solid var(--color-dark-blue);
+  color: var(--color-light-gray);
+  width: 19rem;
+  height: 2.5rem;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 1.25rem;
+  outline: none;
+  padding: 0.75rem;
 }
 .main__hero_button {
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: var(--color-bright-blue);
+  color: var(--color-light-grayish-blue);
+  cursor: pointer;
   display: block;
-  width: 100%;
+  width: 19rem;
+  height: 2.5rem;
+  max-width: 100%;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
