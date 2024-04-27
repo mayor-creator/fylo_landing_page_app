@@ -1,0 +1,23 @@
+@use "sass:math";
+
+//converting pixel to rem
+@function rem($pixel) {
+  @if math.is-unitless($pixel) {
+    @return math.div($pixel, 16)+rem;
+  }
+
+  @else {
+    @error "only use numbers"
+  }
+}
+
+//converting pixel to em
+@function em($pixel) {
+  @if math.is-unitless($pixel) {
+    @return math.div($pixel, 16)+em;
+  }
+
+  @else {
+    @error "only use numbers";
+  }
+}
