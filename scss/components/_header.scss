@@ -1,6 +1,8 @@
 @use "../util/" as u;
 
 .header {
+  padding-bottom: u.rem(40);
+
   &__container {
     display: flex;
     align-items: center;
