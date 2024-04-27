@@ -77,4 +77,26 @@ h6 {
   --color-moderate-cyan: hsl(170, 45%, 43%);
   --color-light-grayish-blue: hsl(240, 75%, 98%);
   --color-light-gray: hsl(0, 0%, 75%);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/raleway-v29-latin/raleway-v29-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/raleway-v29-latin/raleway-v29-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/open-sans-v40-latin-regular.woff2") format("woff2");
 }/*# sourceMappingURL=style.css.map */
