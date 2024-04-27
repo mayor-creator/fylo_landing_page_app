@@ -122,4 +122,45 @@ h3 {
 p {
   font-size: clamp(0.875rem, 0.8089788732rem + 0.2816901408vw, 1.0625rem);
   font-weight: 400;
+}
+
+a {
+  font-size: clamp(0.75rem, 0.661971831rem + 0.3755868545vw, 1rem);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.wrapper {
+  width: min(100% - 2rem, 80rem);
+  margin-inline: auto;
+  border: 1px solid red;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__image {
+  width: 5rem;
+  height: 1.5rem;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.625rem;
+  padding: 0.625rem;
+}
+.header__nav a:link {
+  color: var(--color-dark-blue);
+  text-decoration: none;
+}
+.header__nav a:visited {
+  text-decoration: none;
+  color: var(--color-dark-blue);
 }/*# sourceMappingURL=style.css.map */

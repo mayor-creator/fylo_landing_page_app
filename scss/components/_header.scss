@@ -1,0 +1,32 @@
+@use "../util/" as u;
+
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__image {
+    width: u.rem(80);
+    height: u.rem(24);
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: u.rem(10);
+    padding: u.rem(10);
+
+    a:link {
+      color: var(--color-dark-blue);
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: var(--color-dark-blue);
+    }
+  }
+}
