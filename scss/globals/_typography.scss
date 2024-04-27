@@ -23,3 +23,7 @@ p {
   font-size: clamp(u.rem(14), 0.8089788732394366rem + 0.2816901408450704vw, u.rem(17));
   font-weight: u.$four_hundred_font_weight;
 }
+
+a {
+  font-size: clamp(u.rem(12), 0.6619718309859155rem + 0.3755868544600939vw, u.rem(16));
+}
