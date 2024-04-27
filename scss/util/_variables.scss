@@ -1,0 +1,9 @@
+@use "./function" as f;
+
+$font_size: f.rem(16);
+$open_sans_font_family: "Open Sans",
+  sans-serif;
+$raleway_font_family: "Raleway",
+  sans-serif;
+$four_hundred_font_weight: 400;
+$seven_hundred_font_weight: 700;
