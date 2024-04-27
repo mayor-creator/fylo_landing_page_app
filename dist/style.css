@@ -99,4 +99,27 @@ h6 {
   font-style: normal;
   font-weight: 400;
   src: url("../../fonts/open-sans-v40-latin-regular.woff2") format("woff2");
+}
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 1.1478873239rem + 1.5023474178vw, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 0.4718309859rem + 2.2535211268vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.125rem, 0.8169014085rem + 1.3145539906vw, 2rem);
+}
+
+p {
+  font-size: clamp(0.875rem, 0.8089788732rem + 0.2816901408vw, 1.0625rem);
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+@use "../util/" as u;
+
+h1,
+h2,
+h3 {
+  font-family: u.$raleway_font_family;
+  font-weight: u.$seven_hundred_font_weight;
+}
+
+h1 {
+  font-size: clamp(u.rem(24), 1.147887323943662rem + 1.5023474178403755vw, u.rem(40));
+}
+
+h2 {
+  font-size: clamp(u.rem(16), 0.471830985915493rem + 2.253521126760563vw, u.rem(40));
+}
+
+h3 {
+  font-size: clamp(u.rem(18), 0.8169014084507042rem + 1.3145539906103285vw, u.rem(32));
+}
+
+p {
+  font-size: clamp(u.rem(14), 0.8089788732394366rem + 0.2816901408450704vw, u.rem(17));
+  font-weight: u.$four_hundred_font_weight;
+}
