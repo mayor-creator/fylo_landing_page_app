@@ -1,0 +1,42 @@
+@use "../util/" as u;
+
+.main {
+  padding-top: u.rem(40);
+
+  &__hero_top {
+    padding-bottom: u.rem(20);
+  }
+
+  &__hero__bottom {
+    padding-top: u.rem(20);
+  }
+
+  &__hero_image {
+    width: u.rem(304);
+    height: u.rem(225);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__hero_heading {
+    color: var(--color-dark-blue);
+    text-align: center;
+    padding-bottom: u.rem(10);
+  }
+
+  &__hero_message {
+    color: var(--color-dark-blue);
+    text-align: center;
+    padding: u.rem(10) u.rem(10) u.rem(20) u.rem(10);
+  }
+
+  &__hero_input {
+    display: block;
+    width: 100%;
+  }
+
+  &__hero_button {
+    display: block;
+    width: 100%;
+  }
+}
