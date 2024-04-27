@@ -1,150 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
-		<meta
-			name="description"
-			content="The official landing page for Fylo "
-			<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./images/favicon-32x32.png" />
-		<title>Frontend Mentor | Fylo landing page with two column layout</title>
-	</head>
-	<body>
-		<header class="header">
-			<img
-				class="header__image"
-				src="./images/logo.svg"
-				alt="log"
-				width="166"
-				height="49" />
-			<nav class="head__nav">
-				<a href="#">Features</a>
-				<a href="#">Team </a>
-				<a href="#">Sign In </a>
-			</nav>
-		</header>
-		<main>
-			<article>
-				<section>
-					<img
-						src="./images/illustration-1.svg"
-						width="640"
-						height="474"
-						alt="illustration of folders" />
-				</section>
-				<section>
-					<h1>All your files in one secure location, accessible anywhere.</h1>
-					<p>
-						Fylo stores your most important files in one secure location. Access
-						them wherever you need, share and collaborate with friends, family,
-						and co-workers.
-					</p>
-					<label
-						for="email"
-						hidden="true"></label>
-					<input
-						type="email"
-						name="email"
-						id="email"
-						placeholder="Enter your email..." />
-					<button type="submit">Get Started</button>
-				</section>
-			</article>
-			<article>
-				<section>
-					<img
-						src="./images/illustration-2.svg"
-						width="542"
-						height="409"
-						alt="illustration of people" />
-				</section>
-				<section>
-					<h2>Stay productive, wherever you are</h2>
-					<p>
-						Never let location be an issue when accessing your files. Fylo has
-						you covered for all of your file storage needs.
-					</p>
-					<p>
-						Securely share files and folders with friends, family and colleagues
-						for live collaboration. No email attachments required!
-					</p>
-					<p>
-						<a
-							href="http://"
-							target="_blank"
-							rel="noopener noreferrer"
-							>See how Fylo works
-							<img
-								src="./images/icon-arrow.svg"
-								alt="arrow icon" />
-						</a>
-					</p>
-					<aside>
-						<p>
-							Fylo has improved our team productivity by an order of magnitude.
-							Since making the switch our team has become a well-oiled
-							collaboration machine.
-						</p>
-						<img
-							src="./images/avatar-testimonial.jpg"
-							alt="avatar of testimonial" />
-						<p>Kyle Burton</p>
-						<p>Founder & CEO, Huddle</p>
-					</aside>
-				</section>
-			</article>
-			<article>
-				<h2>Get early access today</h2>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<meta name="description" content="The official landing page for Fylo ">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="./dist/style.css">
+	<title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+
+<body>
+	<header class="header">
+		<img class="header__image" src="./images/logo.svg" alt="log" width="166" height="49">
+		<nav class="head__nav">
+			<a href="#">Features</a>
+			<a href="#">Team </a>
+			<a href="#">Sign In </a>
+		</nav>
+	</header>
+	<main>
+		<article>
+			<div>
+				<img src="./images/illustration-1.svg" width="640" height="474" alt="illustration of folders">
+			</div>
+			<div>
+				<h1>All your files in one secure location, accessible anywhere.</h1>
 				<p>
-					It only takes a minute to sign up and our free starter tier is
-					extremely generous. If you have any questions, our support team would
-					be happy to help you.
+					Fylo stores your most important files in one secure location. Access
+					them wherever you need, share and collaborate with friends, family,
+					and co-workers.
+				</p>
+				<label for="email" hidden></label>
+				<input type="email" name="email" id="email" placeholder="Enter your email...">
+				<button type="submit">Get Started</button>
+			</div>
+		</article>
+		<article>
+			<div>
+				<img src="./images/illustration-2.svg" width="542" height="409" alt="illustration of people">
+			</div>
+			<div>
+				<h2>Stay productive, wherever you are</h2>
+				<p>
+					Never let location be an issue when accessing your files. Fylo has
+					you covered for all of your file storage needs.
 				</p>
 				<p>
-					<label
-						for="email"
-						hidden="true"></label>
-					<input
-						type="email"
-						name="email"
-						id="email"
-						placeholder="email@example.com" />
-					<button type="submit">Get Started For Free</button>
-				</p>
-			</article>
-		</main>
-		<footer>
-			<section>
-				<img
-					src="./images/logo.svg"
-					alt="logo" />
-			</section>
-			<section>
-				<p>
-					<img
-						src="./images/icon-phone.svg"
-						alt="phone icon" />Phone: +1-543-123-4567
+					Securely share files and folders with friends, family and colleagues
+					for live collaboration. No email attachments required!
 				</p>
 				<p>
-					<img
-						src="./images/icon-email.svg"
-						alt="email icon" />
-					example@fylo.com
+					<a href="#" target="_blank">See how Fylo works
+						<img src="./images/icon-arrow.svg" alt="arrow icon">
+					</a>
 				</p>
-			</section>
-			<section>
-				<p>About Us</p>
-				<p>Jobs Press</p>
-				<p>Blog Contact</p>
-				<p>Us Terms Privacy</p>
-			</section>
-		</footer>
-	</body>
+				<aside>
+					<p>
+						Fylo has improved our team productivity by an order of magnitude.
+						Since making the switch our team has become a well-oiled
+						collaboration machine.
+					</p>
+					<img src="./images/avatar-testimonial.jpg" alt="avatar of testimonial">
+					<p>Kyle Burton</p>
+					<p>Founder & CEO, Huddle</p>
+				</aside>
+			</div>
+		</article>
+		<article>
+			<h2>Get early access today</h2>
+			<p>
+				It only takes a minute to sign up and our free starter tier is
+				extremely generous. If you have any questions, our support team would
+				be happy to help you.
+			</p>
+			<p>
+				<label for="email_address" hidden></label>
+				<input type="email" name="email_address" id="email_address" placeholder="email@example.com">
+				<button type="submit">Get Started For Free</button>
+			</p>
+		</article>
+	</main>
+	<footer>
+		<div>
+			<img src="./images/logo.svg" alt="logo">
+		</div>
+		<div>
+			<p>
+				<img src="./images/icon-phone.svg" alt="phone icon">Phone: +1-543-123-4567
+			</p>
+			<p>
+				<img src="./images/icon-email.svg" alt="email icon">
+				example@fylo.com
+			</p>
+		</div>
+		<div>
+			<p>About Us</p>
+			<p>Jobs Press</p>
+			<p>Blog Contact</p>
+			<p>Us Terms Privacy</p>
+		</div>
+	</footer>
+</body>
+
 </html>
