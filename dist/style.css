@@ -216,4 +216,15 @@ body {
   height: 2.5rem;
   max-width: 100%;
   margin: auto;
+}
+
+.main__productive {
+  background-image: url("../../images/bg-curve-mobile.svg");
+  padding-top: 5rem;
+}
+.main__productive_image {
+  width: 20rem;
+  height: 15.0625rem;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */

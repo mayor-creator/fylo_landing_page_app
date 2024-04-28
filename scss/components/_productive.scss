@@ -1,0 +1,23 @@
+@use "../util/" as u;
+
+.main {
+  &__productive {
+    background-image: url("../../images/bg-curve-mobile.svg");
+    padding-top: u.rem(80);
+  }
+
+  &__productive_top {}
+
+  &__productive_image {
+    width: u.rem(320);
+    height: u.rem(241);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__productive_bottom {}
+
+  &__productive_heading {}
+
+  &__productive_message {}
+}
