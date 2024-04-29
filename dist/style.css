@@ -72,11 +72,12 @@ h6 {
 
 :root {
   --color-dark-blue: hsl(243, 87%, 12%);
-  --color-de_saturated-blue: hsl(244, 14%, 43%);
+  --color-de_saturated-blue: hsl(234, 22%, 44%);
   --color-bright-blue: hsl(224, 93%, 58%);
   --color-moderate-cyan: hsl(170, 45%, 43%);
   --color-light-grayish-blue: hsl(240, 75%, 98%);
   --color-light-gray: hsl(0, 0%, 75%);
+  --color-white: hsl(0, 0%, 100%) ;
 }
 
 @font-face {
@@ -140,6 +141,46 @@ body {
   border: 1px solid red;
 }
 
+.main__cta {
+  background-color: var(--color-de_saturated-blue);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.main__cta_heading {
+  text-align: center;
+  color: var(--color-white);
+  padding-bottom: 0.625rem;
+}
+.main__cta_message {
+  text-align: center;
+  padding: 0rem 1.25rem 0.625rem;
+  color: var(--color-white);
+}
+.main__cta_input {
+  display: block;
+  border: 1px solid var(--color-dark-blue);
+  color: var(--color-light-gray);
+  max-width: 100%;
+  margin: auto;
+  outline: none;
+  padding: 0.75rem;
+  width: 15rem;
+  height: 2rem;
+  margin-bottom: 0.625rem;
+}
+.main__cta_button {
+  border: none;
+  border-radius: 0.3125rem;
+  background-color: var(--color-bright-blue);
+  color: var(--color-white);
+  cursor: pointer;
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  width: 15rem;
+  height: 2rem;
+}
+
 .header {
   padding-bottom: 2.5rem;
 }
@@ -197,25 +238,25 @@ body {
   display: block;
   border: 1px solid var(--color-dark-blue);
   color: var(--color-light-gray);
-  width: 19rem;
-  height: 2.5rem;
   max-width: 100%;
   margin: auto;
-  margin-bottom: 1.25rem;
   outline: none;
   padding: 0.75rem;
+  width: 19rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
 }
 .main__hero_button {
   border: none;
   border-radius: 0.3125rem;
   background-color: var(--color-bright-blue);
-  color: var(--color-light-grayish-blue);
+  color: var(--color-white);
   cursor: pointer;
   display: block;
-  width: 19rem;
-  height: 2.5rem;
   max-width: 100%;
   margin: auto;
+  width: 19rem;
+  height: 2.5rem;
 }
 
 .main__productive {
