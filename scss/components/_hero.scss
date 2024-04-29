@@ -31,28 +31,15 @@
   }
 
   &__hero_input {
-    display: block;
-    border: 1px solid var(--color-dark-blue);
-    color: var(--color-light-gray);
+    @include u.input;
     width: u.rem(304);
     height: u.rem(40);
-    max-width: 100%;
-    margin: auto;
     margin-bottom: u.rem(20);
-    outline: none;
-    padding: u.rem(12);
   }
 
   &__hero_button {
-    border: none;
-    border-radius: u.rem(5);
-    background-color: var(--color-bright-blue);
-    color: var(--color-light-grayish-blue);
-    cursor: pointer;
-    display: block;
+    @include u.button;
     width: u.rem(304);
     height: u.rem(40);
-    max-width: 100%;
-    margin: auto;
   }
 }
