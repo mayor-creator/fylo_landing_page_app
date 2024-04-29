@@ -1,0 +1,18 @@
+@use "../util/" as u;
+
+.footer {
+  // background-color: #07043B;
+  // color: var(--color-white);
+  padding-top: u.rem(40);
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: u.rem(20);
+  }
+
+  &__image {
+    width: u.rem(105);
+    height: u.rem(30);
+  }
+}

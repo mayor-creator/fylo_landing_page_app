@@ -181,6 +181,19 @@ body {
   height: 2rem;
 }
 
+.footer {
+  padding-top: 2.5rem;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.footer__image {
+  width: 6.5625rem;
+  height: 1.875rem;
+}
+
 .header {
   padding-bottom: 2.5rem;
 }
