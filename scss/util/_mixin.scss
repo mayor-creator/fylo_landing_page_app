@@ -1,0 +1,22 @@
+@use "./function" as f;
+
+@mixin input {
+  display: block;
+  border: 1px solid var(--color-dark-blue);
+  color: var(--color-light-gray);
+  max-width: 100%;
+  margin: auto;
+  outline: none;
+  padding: f.rem(12);
+}
+
+@mixin button {
+  border: none;
+  border-radius: f.rem(5);
+  background-color: var(--color-bright-blue);
+  color: var(--color-white);
+  cursor: pointer;
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
