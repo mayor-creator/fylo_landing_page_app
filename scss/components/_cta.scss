@@ -7,16 +7,38 @@
     padding-bottom: u.rem(40);
   }
 
+  &__cta_grid {
+    @include u.breakpoint(large) {
+      @include u.grid;
+    }
+  }
+
+  &__cta_grid_form {
+    @include u.breakpoint(large) {
+      padding-left: u.rem(120);
+    }
+  }
+
   &__cta_heading {
     text-align: center;
     color: var(--color-white);
     padding-bottom: u.rem(10);
+
+    @include u.breakpoint(large) {
+      text-align: left;
+      padding: 0;
+    }
   }
 
   &__cta_message {
     text-align: center;
     padding: u.rem(0) u.rem(20) u.rem(10);
     color: var(--color-white);
+
+    @include u.breakpoint(large) {
+      text-align: left;
+      padding: u.rem(0) u.rem(120) u.rem(20) u.rem(0);
+    }
   }
 
   &__cta_input {
@@ -24,11 +46,23 @@
     width: u.rem(240);
     height: u.rem(32);
     margin-bottom: u.rem(10);
+
+    @include u.breakpoint(large) {
+      width: u.rem(480);
+      height: u.rem(48);
+      margin: u.rem(0) u.rem(0) u.rem(20) u.rem(0)
+    }
   }
 
   &__cta_button {
     @include u.button;
     width: u.rem(240);
     height: u.rem(32);
+
+    @include u.breakpoint(large) {
+      width: u.rem(200);
+      height: u.rem(48);
+      margin: 0
+    }
   }
 }
