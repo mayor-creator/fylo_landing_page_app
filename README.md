@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [ylo_landing_page_app Github](https://github.com/mayor-creator/fylo_landing_page_app)
+- Live Site URL: [fylo_landing_page_app/](https://mayor-creator.github.io/fylo_landing_page_app/)
 
 ## My process
 
