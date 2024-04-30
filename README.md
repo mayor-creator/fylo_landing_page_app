@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Fylo Landing Project](./fyloLandingPage.png)
 
 ### Links
 
@@ -46,16 +46,21 @@ Users should be able to:
 
 ### What I learned
 
+- How to create a mixin and used it throughout the project.
+- Effective way of creating a SASS file structure
+
 ### Continued development
+
+- Grid Layout
+- Responsive design for tablet devices
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Sass and BEM for beginners](https://www.youtube.com/watch?v=jfMHA8SqUL4) - The format and structure of this tutorial helped me to understand SASS functions and how to structure your files. I'd recommend it for anyone who want to learn SASS.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Threads - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@mayor-creator](https://www.frontendmentor.io/profile/mayor-creator)
+- Threads - [@mayor_creator](https://www.threads.net/@mayor_creator)
 
 ## Acknowledgments
