@@ -10,12 +10,18 @@
     display: flex;
     flex-direction: column;
     gap: u.rem(20);
+
+    @include u.breakpoint(large) {
+      flex-direction: row;
+      align-items: center;
+      gap: u.rem(300);
+    }
   }
 
   &__image {
     width: u.rem(105);
     height: u.rem(30);
-    //filter: brightness(100);
+    margin-bottom: u.rem(20);
     filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(79deg) brightness(102%) contrast(101%);
   }
 
@@ -34,5 +40,17 @@
     display: flex;
     flex-direction: column;
     gap: u.rem(10);
+  }
+
+  &__information {
+    @include u.breakpoint(large) {
+      padding-top: u.rem(90)
+    }
+  }
+
+  &__company {
+    @include u.breakpoint(large) {
+      padding-top: u.rem(60)
+    }
   }
 }
