@@ -20,3 +20,18 @@
   max-width: 100%;
   margin: auto;
 }
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@mixin grid_image_item {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+@mixin grid_description_item {
+  grid-row-start: 1;
+  grid-column-end: 2;
+}
