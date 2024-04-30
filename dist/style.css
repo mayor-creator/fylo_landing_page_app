@@ -252,11 +252,30 @@ body {
 .main {
   padding-top: 2.5rem;
 }
+@media (min-width: 56.25em) {
+  .main__hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .main__hero_top {
   padding-bottom: 1.25rem;
 }
+@media (min-width: 56.25em) {
+  .main__hero_top {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
 .main__hero__bottom {
   padding-top: 1.25rem;
+}
+@media (min-width: 56.25em) {
+  .main__hero__bottom {
+    grid-row-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+  }
 }
 .main__hero_image {
   width: 19rem;
@@ -264,15 +283,33 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 56.25em) {
+  .main__hero_image {
+    width: 40rem;
+    height: 29.625rem;
+    margin: 0;
+  }
+}
 .main__hero_heading {
   color: var(--color-dark-blue);
   text-align: center;
   padding-bottom: 0.625rem;
 }
+@media (min-width: 56.25em) {
+  .main__hero_heading {
+    text-align: left;
+  }
+}
 .main__hero_message {
   color: var(--color-dark-blue);
   text-align: center;
   padding: 0.625rem 0.625rem 1.25rem 0.625rem;
+}
+@media (min-width: 56.25em) {
+  .main__hero_message {
+    text-align: left;
+    padding: 0rem 5rem 1.25rem 0rem;
+  }
 }
 .main__hero_input {
   display: block;
@@ -286,6 +323,13 @@ body {
   height: 2.5rem;
   margin-bottom: 1.25rem;
 }
+@media (min-width: 56.25em) {
+  .main__hero_input {
+    display: inline;
+    width: 20rem;
+    height: 2.8125rem;
+  }
+}
 .main__hero_button {
   border: none;
   border-radius: 0.3125rem;
@@ -297,6 +341,13 @@ body {
   margin: auto;
   width: 19rem;
   height: 2.5rem;
+}
+@media (min-width: 56.25em) {
+  .main__hero_button {
+    display: inline;
+    width: 12.5rem;
+    height: 2.8125rem;
+  }
 }
 
 .main__productive {

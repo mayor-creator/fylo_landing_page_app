@@ -3,12 +3,27 @@
 .main {
   padding-top: u.rem(40);
 
+  &__hero {
+    @include u.breakpoint(large) {
+      @include u.grid;
+    }
+  }
+
   &__hero_top {
     padding-bottom: u.rem(20);
+
+    @include u.breakpoint(large) {
+      @include u.grid_image_item;
+    }
   }
 
   &__hero__bottom {
     padding-top: u.rem(20);
+
+    @include u.breakpoint(large) {
+      @include u.grid_description_item;
+      margin: auto;
+    }
   }
 
   &__hero_image {
@@ -16,18 +31,33 @@
     height: u.rem(225);
     margin-left: auto;
     margin-right: auto;
+
+    @include u.breakpoint(large) {
+      width: u.rem(640);
+      height: u.rem(474);
+      margin: 0;
+    }
   }
 
   &__hero_heading {
     color: var(--color-dark-blue);
     text-align: center;
     padding-bottom: u.rem(10);
+
+    @include u.breakpoint(large) {
+      text-align: left;
+    }
   }
 
   &__hero_message {
     color: var(--color-dark-blue);
     text-align: center;
     padding: u.rem(10) u.rem(10) u.rem(20) u.rem(10);
+
+    @include u.breakpoint(large) {
+      text-align: left;
+      padding: 0rem u.rem(80) u.rem(20) u.rem(0);
+    }
   }
 
   &__hero_input {
@@ -35,11 +65,23 @@
     width: u.rem(304);
     height: u.rem(40);
     margin-bottom: u.rem(20);
+
+    @include u.breakpoint(large) {
+      display: inline;
+      width: u.rem(320);
+      height: u.rem(45);
+    }
   }
 
   &__hero_button {
     @include u.button;
     width: u.rem(304);
     height: u.rem(40);
+
+    @include u.breakpoint(large) {
+      display: inline;
+      width: u.rem(200);
+      height: u.rem(45);
+    }
   }
 }
