@@ -182,7 +182,10 @@ body {
 }
 
 .footer {
+  background-color: #07043B;
+  color: var(--color-white);
   padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .footer__container {
   display: flex;
@@ -192,6 +195,19 @@ body {
 .footer__image {
   width: 6.5625rem;
   height: 1.875rem;
+  filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(79deg) brightness(102%) contrast(101%);
+}
+.footer__icon_phone, .footer__icon_email {
+  float: left;
+  padding-right: 0.625rem;
+}
+.footer__icon_phone_message {
+  padding-bottom: 1.25rem;
+}
+.footer__information, .footer__company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
 }
 
 .header {
