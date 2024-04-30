@@ -222,12 +222,23 @@ body {
   width: 5rem;
   height: 1.5rem;
 }
+@media (min-width: 56.25em) {
+  .header__image {
+    width: 10.375rem;
+    height: 3.0625rem;
+  }
+}
 .header__nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 0.625rem;
   padding: 0.625rem;
+}
+@media (min-width: 56.25em) {
+  .header__nav {
+    gap: 1.5rem;
+  }
 }
 .header__nav a:link {
   color: var(--color-dark-blue);
