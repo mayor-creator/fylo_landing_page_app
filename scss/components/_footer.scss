@@ -1,7 +1,7 @@
 @use "../util/" as u;
 
 .footer {
-  background-color: #07043B;
+  background-color: hsl(243, 87%, 12%);
   color: var(--color-white);
   padding-top: u.rem(40);
   padding-bottom: u.rem(40);
@@ -18,21 +18,18 @@
     }
   }
 
+  &_icon_item {
+    display: flex;
+    align-items: center;
+    gap: u.rem(10);
+    padding-bottom: u.rem(10);
+  }
+
   &__image {
     width: u.rem(105);
     height: u.rem(30);
     margin-bottom: u.rem(20);
-    filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(79deg) brightness(102%) contrast(101%);
-  }
-
-  &__icon_phone,
-  &__icon_email {
-    float: left;
-    padding-right: u.rem(10);
-  }
-
-  &__icon_phone_message {
-    padding-bottom: u.rem(20);
+    filter: brightness(0) invert(1);
   }
 
   &__information,

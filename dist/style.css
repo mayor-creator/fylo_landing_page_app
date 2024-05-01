@@ -218,7 +218,7 @@ body {
 }
 
 .footer {
-  background-color: #07043B;
+  background-color: hsl(243, 87%, 12%);
   color: var(--color-white);
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -235,18 +235,17 @@ body {
     gap: 18.75rem;
   }
 }
+.footer_icon_item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding-bottom: 0.625rem;
+}
 .footer__image {
   width: 6.5625rem;
   height: 1.875rem;
   margin-bottom: 1.25rem;
-  filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(79deg) brightness(102%) contrast(101%);
-}
-.footer__icon_phone, .footer__icon_email {
-  float: left;
-  padding-right: 0.625rem;
-}
-.footer__icon_phone_message {
-  padding-bottom: 1.25rem;
+  filter: brightness(0) invert(1);
 }
 .footer__information, .footer__company {
   display: flex;
